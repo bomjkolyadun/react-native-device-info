@@ -430,11 +430,11 @@ RCT_EXPORT_METHOD(getDeviceName:(RCTPromiseResolveBlock)resolve rejecter:(RCTPro
     } else if ([deviceId hasPrefix:@"iMacPro"]) {
         return @"iMac Pro";
     } else if ([deviceId hasPrefix:@"iMac"]) {
-        return @"iMac"
+        return @"iMac";
     } else if ([deviceId hasPrefix:@"Macmini"]) {
-        return @"Macmini"
+        return @"Macmini";
     } else if ([deviceId hasPrefix:@"MacPro"]) {
-        return @"MacPro"
+        return @"MacPro";
     }
 
     // If we could not even get a generic, it's unknown
